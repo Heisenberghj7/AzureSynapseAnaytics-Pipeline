@@ -1,6 +1,7 @@
-# AzureSynapseAnaytics-Pipeline
+# Azure Synapse Analytics Pipeline
 
-## client satisfaction
+**`Client satisfaction`**
+
 <img src="Azure_Synapse_Project_Review.png">
 
 **`Project Title:`**
