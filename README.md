@@ -3,14 +3,15 @@
 ## client satisfaction
 <img src="Azure_Synapse_Project_Review.png">
 
-## Project Title: 
-Secure Data Pipeline from Azure SQL to Azure Synapse Analytics with Power BI Dashboard
+**`Project Title:`**
 
-## Project Description:
+- Secure Data Pipeline from Azure SQL to Azure Synapse Analytics with Power BI Dashboard
 
-This GitHub repository documents a secure and efficient data pipeline solution designed and implemented as a freelance project for VisualDispatch, a prominent American logistics company. The primary objective was to develop a robust pipeline that transforms data seamlessly from Azure SQL to Azure Synapse Analytics while ensuring the highest standards of security and data integrity.
+**`Project Description:`**
 
-# Key Features:
+- This GitHub repository documents a secure and efficient data pipeline solution designed and implemented as a freelance project for VisualDispatch, a prominent American logistics company. The primary objective was to develop a robust pipeline that transforms data seamlessly from Azure SQL to Azure Synapse Analytics while ensuring the highest standards of security and data integrity.
+
+**`Key Features:`**
 
 - Data Transformation: The pipeline automates the data transformation process, ensuring data consistency and accuracy.
 
@@ -20,10 +21,10 @@ This GitHub repository documents a secure and efficient data pipeline solution d
 
 - Security: Robust security measures were implemented, including Azure Active Directory roles and permissions, to safeguard sensitive data and control access.
 
-## Client Engagement:
-The project was executed remotely through TeamViewer, allowing real-time collaboration with VisualDispatch's CEO. Detailed explanations and training were provided to ensure the VisualDispatch team could use and maintain the solution independently in the future.
+**`Client Engagement:`**
+- The project was executed remotely through TeamViewer, allowing real-time collaboration with VisualDispatch's CEO. Detailed explanations and training were provided to ensure the VisualDispatch team could use and maintain the solution independently in the future.
 
-## Project Deliverables:
+**`Client Engagement:`**
 
 - A well-documented data pipeline architecture.
 - Code and scripts for data transformation and statistics generation.
@@ -32,6 +33,6 @@ The project was executed remotely through TeamViewer, allowing real-time collabo
 
 
 
-# Contributors:
+**`Contributors::`**
  - HAJJARI Mohammed
 
