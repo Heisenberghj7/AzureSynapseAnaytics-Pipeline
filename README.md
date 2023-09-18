@@ -1,4 +1,4 @@
-# Azure Synapse Analytics Pipeline
+# Azure Synapse Analytics Pipeline :technologist:
 
 **`Client satisfaction`**
 
