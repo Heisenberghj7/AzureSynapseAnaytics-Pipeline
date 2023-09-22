@@ -1,6 +1,6 @@
 # :technologist: Azure Synapse Analytics Pipeline :technologist:
 
-**`Client satisfaction`**
+**`Client Feedback`**
 
 <img src="Azure_Synapse_Project_Review.png">
 
