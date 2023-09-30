@@ -1,5 +1,8 @@
 # :technologist: Azure Synapse Analytics Pipeline :technologist:
 
+**`Project Architecture`**
+<img src="synapsePipeline.png">
+
 **`Client Feedback`**
 
 <img src="Azure_Synapse_Project_Review.png">
