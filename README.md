@@ -55,6 +55,6 @@ In Power BI, the process involves:
 - Integration of a Power BI dashboard for data visualization.
 - Secure role-based access control using Azure Entra ID ( Ex-Azure Active Directory ) .
 
-**`Contributors::`**
+**`Contributors:`**
  - HAJJARI Mohammed
 
