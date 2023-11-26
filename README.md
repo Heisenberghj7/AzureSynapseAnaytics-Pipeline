@@ -4,12 +4,10 @@
 <img src="synapsePipeline.png">
 
 **`Client Feedback`**
-
 <img src="Azure_Synapse_Project_Review.png">
 
 **`Project Title:`**
-
-- Secure Data Pipeline from Azure SQL to Azure Synapse Analytics with Power BI Dashboard
+- Data Pipeline from Azure SQL to Azure Synapse Analytics with Power BI Dashboard
 
 **`Project Description:`**
 
@@ -17,25 +15,45 @@
 
 **`Key Features:`**
 
-- Data Transformation: The pipeline automates the data transformation process, ensuring data consistency and accuracy.
+## Azure SQL Database
 
-- Statistics Generation: It includes scripts for running statistics on the transformed data, providing valuable insights for business decision-making.
+Azure SQL hosts the company's database, containing over 6 million rows of data, including client information, workflow optimization data, and productivity metrics. This production database should not be impacted by transactions, view creations, or new table additions. To utilize the database data for analytical purposes, the plan is to transfer it to Azure Synapse using Azure Data Factory.
 
-- Power BI Integration: A Power BI dashboard is integrated into the pipeline, offering visually compelling data visualization for users.
+## Azure Data Factory Tasks
 
-- Security: Robust security measures were implemented, including Azure Active Directory roles and permissions, to safeguard sensitive data and control access.
+Azure Data Factory will be employed to:
+
+- Develop a mapping data flow, involving the creation of two source activities for specific tables in the database, a join activity, a select activity, a derived column activity, and finally, a sink activity. The objective is to generate a fact table within the same mapping data flow canvas.
+
+- Form three dimension tables by joining other tables in the database, establishing surrogate keys, and implementing a cache sink.
+
+## Azure Synapse Analytics Integration
+
+In Azure Synapse Analytics, the following steps will be taken:
+
+- Construct the schema for the fact table in a dedicated SQL pool within Synapse, utilizing hash distribution.
+
+- Design the schema for dimension tables within the same pool, utilizing replicated tables distribution.
+
+## Azure Entra ID (Ex, Active Directory)
+
+For Azure Entra ID:
+
+- Generate a new user and grant them access to the created pool in Synapse, enabling them to leverage the data in Power BI.
+
+## Power BI Integration
+
+In Power BI, the process involves:
+
+- Connecting the Azure Synapse pool to Power BI to visualize the data and create reports.
 
 **`Client Engagement:`**
 - The project was executed remotely through TeamViewer, allowing real-time collaboration with VisualDispatch's CEO. Detailed explanations and training were provided to ensure the VisualDispatch team could use and maintain the solution independently in the future.
 
-**`Client Engagement:`**
-
+**`Deliverable`**
 - A well-documented data pipeline architecture.
-- Code and scripts for data transformation and statistics generation.
 - Integration of a Power BI dashboard for data visualization.
-- Secure role-based access control using Azure Active Directory.
-
-
+- Secure role-based access control using Azure Entra ID ( Ex-Azure Active Directory ) .
 
 **`Contributors::`**
  - HAJJARI Mohammed
