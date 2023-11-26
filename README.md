@@ -1,15 +1,15 @@
 # :technologist: Azure Synapse Analytics Pipeline :technologist:
 
-**`Project Architecture`**
+# Project Architecture
 <img src="synapsePipeline.png">
 
-**`Client Feedback`**
+# Client Feedback
 <img src="Azure_Synapse_Project_Review.png">
 
-**`Project Title:`**
+# Project Title:
 - Data Pipeline from Azure SQL to Azure Synapse Analytics with Power BI Dashboard
 
-**`Project Description:`**
+# Project Description:
 
 - This GitHub repository documents a secure and efficient data pipeline solution designed and implemented as a freelance project for VisualDispatch, a prominent American logistics company. The primary objective was to develop a robust pipeline that transforms data seamlessly from Azure SQL to Azure Synapse Analytics while ensuring the highest standards of security and data integrity.
 
@@ -47,10 +47,10 @@ In Power BI, the process involves:
 
 - Connecting the Azure Synapse pool to Power BI to visualize the data and create reports.
 
-## Client Engagement
+# Client Engagement
 - The project was executed remotely through TeamViewer, allowing real-time collaboration with VisualDispatch's CEO. Detailed explanations and training were provided to ensure the VisualDispatch team could use and maintain the solution independently in the future.
 
-## Deliverable
+# Deliverable
 - A well-documented data pipeline architecture.
 - Integration of a Power BI dashboard for data visualization.
 - Secure role-based access control using Azure Entra ID ( Ex-Azure Active Directory ) .
